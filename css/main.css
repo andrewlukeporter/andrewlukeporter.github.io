@@ -245,6 +245,7 @@ a:hover, a:active {
 		width: 72%;
 	}
 
+
  /* Changes that shoudl be made to the page for the mobile site */
 @media only screen and (min-width: 150px) and (max-width: 700px) {
 	
