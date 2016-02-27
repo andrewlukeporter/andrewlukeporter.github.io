@@ -1,0 +1,350 @@
+ /* page styling */
+body {
+	background: #000000;
+	background-image: url("../images/bg1.png"), url("../images/bg2.png");
+	background-repeat: repeat-x, repeat;
+	color: #000000;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+ /* hyperlink styling */
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #CF5C33;
+}
+
+a:hover, a:active {
+	color: #00a9df;
+}
+
+ /* body styling */
+.body {
+	clear: both;
+	margin: 0 auto;
+	width: 70%;
+}
+
+ /* header styling */
+.header img {
+	width: 60%;
+	height: auto;
+}
+
+ /* navigation styling */
+.header nav {
+	background-color: #676767;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.header nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.header nav ul li {
+	float: left;
+	display: inline;
+	-webkit-transition: all 0.5s ease;
+}
+
+.header nav a:link, .header nav a:visited {
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.header nav a:hover, .header nav a:active, .header nav .active a:link, .header nav .active a:visited {
+	background-color: #CF5C33;
+	text-shadow: none;
+}
+
+.header nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+ /* Main page content styling */
+.main {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+ /* styling level 2 content */
+.level2 {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 3% 1% 3%;
+	margin-top: 2%;
+}
+
+ /* styling level 1 content */
+.level1 {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 3% 1% 3%;
+	margin-top: 2%;
+}
+
+ /* styling side project content */
+.other {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1% 3% 1% 3%;
+	margin-top: 2%;
+}
+
+ /* styling for the footer of each project */
+.post-info {
+	font-style:italic;
+	color: #676767;
+	font-size: 90%;
+}
+
+ /* About me sidebar styling */
+.topSidebar {
+	width: 25%;
+	float: right;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 0 2% 3%;
+	padding: 0% 1% 1% 1%;
+}
+
+ /* Development languages sidebar styling */
+.middleSidebar {
+	width: 25%;
+	float: right;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 0% 1% 1% 1%;
+}
+
+ /* Application sidebar styling */
+.appSidebar {
+	width: 25%;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 0% 1% 1% 1%;
+}
+
+ /* Application sidebar styling */
+.achieveSidebar {
+	width: 25%;
+	float: right;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 0% 1% 1% 1%;
+}
+
+ /* Operating systems sidebar styling */
+.osSidebar {
+	width: 25%;
+	float: right;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 0% 1% 1% 1%;
+}
+
+ /* Operating systems sidebar styling */
+.libSidebar {
+	width: 25%;
+	float: right;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 0% 1% 1% 1%;
+}
+
+ /* Social sidebar styling */
+.socialSidebar {
+	width: 98%;
+	float: right;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin: 1% 0% 0% 2%;
+	padding: 0% 1% 1% 1%;
+}
+
+ /* footer styling */
+.footer {
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #676767;
+	margin: 2% 0;
+}
+
+.footer p {
+	width: 92%;
+	margin: 10px auto;
+	color: #FFFFFF;
+}
+
+ /* To top styling */
+.fixed {
+	position:fixed;
+	overflow: auto;
+	bottom: 5px;
+	right: 3px;
+	transition: width 2s;
+    -webkit-transition: width 2s;
+}
+
+ /* Video styling */
+#androidVideo, #seVideo, #networksVideo, #databaseVideo, #javaVideo, #segpVideo, #mathsVideo, #windowsVideo, #magheralin {
+		width: 72%;
+	}
+
+ /* Changes that shoudl be made to the page for the mobile site */
+@media only screen and (min-width: 150px) and (max-width: 700px) {
+	
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+	
+	.header img {
+		width: 100%;
+	}
+	
+	.header nav {
+		height: 160px;
+	}
+
+	.header nav ul {
+		padding-left: 0px;
+	}
+
+	.header nav ul li {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.header nav a:link, .header nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.level2 {
+		margin-bottom: 4%;
+	}
+
+	.level1 {
+		margin-top: 3%;
+	}
+	
+	.other {
+		margin-top: 3%;
+	}
+
+	.post-info {
+		display: none;
+	}
+
+	.topSidebar {
+		width: 94%;
+		margin: 4% 0 2% 0%;
+		padding: 2% 3%;
+	}
+
+	.libSidebar, .achieveSidebar, .osSidebar, .middleSidebar, .appSidebar {
+		width: 94%;
+		margin: 2% 0 2% 0%;
+		padding: 2% 3%;
+	}
+
+	.socialSidebar {
+		margin: 2% 0% 2% 0%;
+	}
+	
+	.fixed {
+		display: none;
+	}
+	
+	#androidVideo, #seVideo, #networksVideo, #databaseVideo, #javaVideo, #segpVideo, #mathsVideo, #windowsVideo, #magheralin {
+		width: 90%;
+	}
+}
+
+ /* Changes that shoudl be made to the page for the tablet site */
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+	
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+	
+	.content {
+	width: 61%;
+}
+
+.libSidebar, .achieveSidebar, .osSidebar, .middleSidebar, .topSidebar, .appSidebar {
+		width: 34%;
+	}
+	
+	.socialSidebar {
+		margin: 2% 0% 0% 2%;
+	}
+	
+	#androidVideo, #seVideo, #networksVideo, #databaseVideo, #javaVideo, #segpVideo, #mathsVideo, #windowsVideo, #magheralin {
+		width: 90%;
+	}
+}
