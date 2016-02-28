@@ -241,10 +241,6 @@ a:hover, a:active {
 }
 
  /* Video styling */
-#androidVideo, #seVideo, #networksVideo, #databaseVideo, #javaVideo, #segpVideo, #mathsVideo, #windowsVideo, #magheralin {
-		width: 72%;
-	}
-
 .youtubeVid {
     float: none;
     clear: both;
