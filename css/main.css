@@ -245,6 +245,22 @@ a:hover, a:active {
 		width: 72%;
 	}
 
+.youtubeVid {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.youtubeVid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
  /* Changes that shoudl be made to the page for the mobile site */
 @media only screen and (min-width: 150px) and (max-width: 700px) {
